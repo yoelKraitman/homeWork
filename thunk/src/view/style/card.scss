@@ -1,0 +1,18 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    background-color: saddlebrown;
+
+
+
+    align-items: center;
+    justify-content: space-around;
+
+    &--card {
+        width: 50vw;
+        height: 50vh;
+        background-color: aqua;
+    }
+}
